@@ -57,6 +57,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -67,6 +68,11 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 img,
